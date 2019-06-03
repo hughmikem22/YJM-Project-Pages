@@ -1,0 +1,223 @@
+:root{
+    --primary: #ddd;
+    --dark: #333;
+    --light: #fff;
+    --shadow: 0 1px 5px rgba(104, 104, 104, 0.8);
+
+}
+
+html{
+    box-sizing: border-box;
+    font-family: 'Courier New', Courier, monospace;
+    color: var(--dark);
+}
+
+body{
+    background: #ccc;
+    margin: 30px 50px;
+    line-height: 1.4;
+}
+
+.btn{
+background: var(--light);
+padding: 0.3rem 1.3rem;
+text-decoration:black;
+border: 1;
+box-shadow: var(--shadow);
+border-radius: 4px;
+
+}
+
+img{
+    max-width: 100%;
+}
+
+.boxer{
+    display: grid;
+    grid-gap: 20px;
+}
+
+.btn:hover{
+    background: var(--light);
+    color: #ccc;
+}
+
+.top-box{
+    display: grid;
+    grid-gap:20px;
+    grid-template-areas: 
+    'pub pub top-box-a'
+    'pub pub top-box-b';
+}
+
+.pub{
+    grid-area: pub;
+    min-height: 400px;
+    min-width: 800px;
+    background: url(../images/reading_shutterstock_289623677.jpg);
+    background-size: cover;
+    background-position: center;
+    padding: 3rem;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    box-shadow: var(--shadow);
+}
+
+.pub h1{
+    font-size: 4rem;
+    margin-bottom: 0;
+    color: var(--dark);
+    justify-items: first baseline;
+
+}
+
+.pub p{
+    font-size: 1.5rem;
+    margin-bottom: 0;
+    color: var(--dark);
+}
+
+
+/* top box */
+
+.top-box{
+    background: var(--primary);
+    display: grid;
+    align-items: center;
+    justify-items: center;
+    box-shadow: var(--shadow);
+    padding: 1.5rem; 
+}
+
+.top-box-a{
+    grid-area: top-box-a;
+    min-height: 200px;
+   justify-content: center;
+    margin: 0 auto;
+    }
+.top-box-b{
+        grid-area: top-box-b;
+        min-height: 200px;
+        justify-content: center;
+       
+        margin: 0 auto;
+        }
+        
+
+
+.articles{
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: repeat(auto-fit, minmax( 200px, 1fr));
+    
+}
+
+.article{
+    background:  var(--primary);
+    text-align: center;
+    padding: 1.5rem 2rem;
+    box-shadow: var(--shadow);
+    background-image: url(./beachstock.jpg);
+    
+}
+.article:hover{
+    
+}
+.article-a{
+    background:  var(--primary);
+    text-align: center;
+    padding: 1.5rem 2rem;
+    box-shadow: var(--shadow);
+    background-image: url(./evening-landscape-13530956185Aw.jpg);
+    
+}
+.article-a:hover{
+    
+    
+}
+
+.article-b{
+    background:  var(--primary);
+    text-align: center;
+    padding: 1.5rem 2rem;
+    box-shadow: var(--shadow);
+    background-image: url(./beach.jpg);
+    
+}
+.article-b:hover{
+   
+    
+}
+
+.article-c{
+    background:  var(--primary);
+    text-align: center;
+    padding: 1.5rem 2rem;
+    box-shadow: var(--shadow);
+    background-image: url(./lifeisabeach.jpg);
+}
+
+.article-c:hover{
+    
+}
+
+@media(max-width: 700px) {
+    .top-box{
+        width: 100%;
+        grid-template-areas: 
+        'pub pub'
+        'top-box-a top-box-b';
+    }
+    .pub h1{
+        font-size: 2.5rem;
+    }
+
+}
+
+@media (max-width: 500px){
+    .top-box{
+        grid-template-areas: 
+        'pub pub'
+        'top-box-a top-box-b';
+    }
+}
+
+.col{
+    margin-top: 3rem;
+}
+
+.fb {
+    background-color: #3B5998;
+    color: white;
+    margin-top: 10rem;
+  }
+  
+  .twitter {
+    background-color: #55ACEE;
+    color: white;
+  }
+  
+  .linkedIN {
+    background-color: #3b5998;
+    color: white;
+  }  
+  .btn1 {
+    width: 25%;
+    padding: 12px;
+    border: none;
+    border-radius: 4px;
+    margin: 5px 0;
+    opacity: 0.85;
+    display: inline-block;
+    font-size: 17px;
+    line-height: 20px;
+    text-decoration: none; 
+  }
+
+  .col1{
+    float: left;
+
+  }
+  

@@ -1,0 +1,300 @@
+body{
+  background-image: linear-gradient(to left, grey, whitesmoke)
+}
+#NMH{
+    font-size: 40px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: darkred;
+
+}
+
+hr{
+    justify-content: center;
+    width: 1800px;
+    height: 6px;
+    border: 0;
+    border-top: 6px solid black;
+    margin: 2rem;
+    padding: 0;
+}
+.hr2{
+    width: 1800px;
+    margin: 20rem;
+}
+
+#sp1{
+padding: 10px;
+margin: 10px; 
+margin-left:20px;
+}
+
+#sp2{
+padding: 10px;
+margin:10px;
+margin-left:20px;
+
+}
+
+#abt1{
+    display:inline-block;
+    border: 1px solid ;
+    text-align: center;
+    padding: 5px;
+    margin: 12px;
+    margin-left: 25px;
+}
+
+.col1{
+    float:left;
+    height: 17.5px;
+    width: 30%;
+    margin-top:-.383rem;
+    margin-left: 25px;
+}
+
+.col2{
+margin: 0 auto;
+height: 17.5px;
+width: 30%;
+margin-top: 0.256rem; 
+
+}
+
+.col3{
+    float: right;
+    height: 17.5px;
+    width: 30%;
+    margin-top: -1rem;
+    
+}
+
+.col4{
+   justify-content: left;
+   margin-top: 3.83rem;
+   margin-left: 25px;
+}
+
+.col5{
+    float: right;
+margin-top: -3.244rem;
+margin-right: 48%;
+}
+
+.col6{
+
+margin-top: 2.25rem;
+margin-left: 25px;
+
+
+}
+
+.col7{
+    float: right;
+    margin-right: 48%;
+    margin-top: -3.260rem;
+}
+
+
+.sp3{
+    font-size: 25px;
+    margin-top: 5rem;
+    margin-left: 25px;
+
+}
+
+.gender{
+    margin-left:25px;
+    
+}
+
+.sp4{
+float: right;
+margin-top: -6.550rem;
+margin-right: 45%;
+font-size: 25px;
+}
+
+.gender2{
+float: right;
+margin-top: -3.950rem;
+margin-right: 40%;
+}
+
+.contact{
+    display:inline-block;
+    border: 1px solid ;
+    text-align: center;
+    padding: 5px;
+    margin: 12px;
+    margin-left: 25px;
+    margin-top: 10.89%;
+}
+.contact1{
+    display:inline-block;
+    border: 1px solid ;
+    text-align: center;
+    padding: 5px;
+    margin: 12px;
+    margin-left: 25px;
+    margin-top: -1.00%;
+}
+
+
+.col8{
+
+    margin-top: 1.85rem;
+    margin-left: 25px;
+}
+
+.col9{
+    margin: 0 auto;
+    height: 17.5px;
+    width: 30%;
+    margin-top: -1.975rem; 
+    
+}
+.col10{
+    margin-top: 2.85rem;
+    margin-left: 25px;
+    
+}
+
+.col11{
+    margin: 0 auto;
+    height: 17.5px;
+    width: 30%;
+    margin-top: 4.05rem; 
+}
+
+.col12{
+    margin: 0 auto;
+    height: 17.5px;
+    width: 30%;
+    margin-top: 6.975rem; 
+}
+
+.col13{
+    margin-top: -9.25rem;
+    margin-left: 25px;
+}
+
+.col14{
+    margin-top: 4.85rem;
+    margin-left: 25px;
+}
+
+.col15{
+    margin-top: 2.85rem;
+    margin-left: 25px;
+}
+
+a{
+    margin-top:115rem;
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: black;
+    padding: 15px 30px;
+    text-transform: uppercase;
+    text-decoration: none;
+    box-shadow: 0 20px 40px rgba(0,0,0,.5);
+    overflow: hidden;
+}
+
+a:before{
+    content:'';
+    position: absolute;
+    top: 2px;
+    left: 2px;
+    bottom: 2px;
+    width: 50%;
+    background: rgba(255, 255, 255, 0.13);
+
+}
+
+a span:nth-child(1)
+{
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: 2px;
+    background: linear-gradient(to right,  blue, whitesmoke );
+    animation: animate1 3s linear infinite;
+}
+
+@keyframes animate1{
+
+    0%{
+        transform: translateX(-100%);
+    }
+    100%
+    {
+        transform: translateX(100%);
+    }
+}
+
+a span:nth-child(2)
+{
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 2px;
+    height: 100%;
+    background: linear-gradient(to bottom,  blue, whitesmoke);
+    animation: animate2 3s linear infinite;
+
+}
+@keyframes animate2{
+
+    0%{
+        transform: translateY(100%);
+    }
+    100%
+    {
+        transform: translateY(-100%);
+    }
+}
+a span:nth-child(3)
+{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background: linear-gradient(to left,  blue, whitesmoke );
+    animation: animate3 3s linear infinite;
+
+}
+@keyframes animate3{
+
+    0%{
+        transform: translateX(100%);
+    }
+    100%
+    {
+        transform: translateX(-100%);
+    }
+}
+a span:nth-child(4)
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 2px;
+    height: 100%;
+    background: linear-gradient(to top,  blue, whitesmoke );
+    animation: animate4 3s linear infinite;
+}
+@keyframes animate4{
+
+    0%{
+        transform: translateY(-100%);
+    }
+    100%
+    {
+        transform: translateY(100%);
+    }
+}
+
